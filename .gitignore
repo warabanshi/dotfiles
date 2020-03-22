@@ -17,6 +17,3 @@ Sessionx.vim
 tags
 # Persistent undo
 [._]*.un~
-
-# ignore submodules
-.vim/pack/*

@@ -1,3 +1,6 @@
 [submodule ".vim/pack/code/start/syntactic"]
 	path = .vim/pack/code/start/syntactic
 	url = https://github.com/vim-syntastic/syntastic.git
+[submodule ".vim/pack/code/start/jedi-vim"]
+	path = .vim/pack/code/start/jedi-vim
+	url = https://github.com/davidhalter/jedi-vim.git
