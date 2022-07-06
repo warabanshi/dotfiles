@@ -5,3 +5,5 @@
     tree = log --all --graph --decorate --oneline --simplify-by-decoration
     tree-long = log --all --graph --decorate --oneline
     pull-current = "!f() { git pull origin $(git rev-parse --abbrev-ref HEAD); }; f"
+[core]
+    pager = less -R -F -X
