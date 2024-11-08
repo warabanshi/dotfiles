@@ -1,0 +1,14 @@
+winget install -e --id Google.JapaneseIME
+winget install -e --id Google.Chrome
+winget install -e --id 7zip.7zip
+winget install -e --id vim.vim
+winget install -e --id SlackTechnologies.Slack
+winget install -e --id TheDocumentFoundation.LibreOffice
+winget install -e --id Discord.Discord
+winget install -e --id Dropbox.Dropbox
+winget install -e --id pCloudAG.pCloudDrive
+winget install -e --id VideoLAN.VLC
+winget install -e --id Microsoft.WindowsTerminal
+winget install -e --id GIMP.GIMP
+winget install -e --id Adobe.Acrobat.Reader.64-bit
+winget install -e --id Docker.DockerDesktop
