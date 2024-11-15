@@ -12,3 +12,4 @@ winget install -e --id Microsoft.WindowsTerminal
 winget install -e --id GIMP.GIMP
 winget install -e --id Adobe.Acrobat.Reader.64-bit
 winget install -e --id Docker.DockerDesktop
+winget install -e --id Microsoft.PowerToys
