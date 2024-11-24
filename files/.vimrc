@@ -61,6 +61,12 @@ if has ('iconv')
 endif
 
 colorscheme torte
+highlight Normal ctermbg=none
+highlight NonText ctermbg=none
+highlight LineNr ctermbg=none
+highlight Folded ctermbg=none
+highlight EndOfBuffer ctermbg=none
+
 set fenc=utf-8
 set nu
 set ts=4 sw=4
@@ -76,7 +82,7 @@ autocmd BufRead,BufNewFile *.rb setfiletype ruby
 "
 " for syntastic (https://github.com/scrooloose/syntastic)
 "
-execute pathogen#infect()
+"""execute pathogen#infect()
 
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
