@@ -22,7 +22,7 @@ common() {
 
     cd $OLDPWD
 
-    git clone https://github.com/pyenv/pyenv.git ~/.pyenv
+    curl https://pyenv.run | bash
 }
 
 debian() {
@@ -36,8 +36,8 @@ debian() {
     a \
     ' -e ':a' -e '$!{n;ba};}' ~/.profile
     echo 'eval "$(pyenv init --path)"' >>~/.profile
-
     echo 'eval "$(pyenv init -)"' >> ~/.bashrc
+    sudo apt install liblzma-dev tk-dev libncurses5-dev libreadline-dev sqlite3 libsqlite3-dev libbz2-dev libffi-dev
 }
 
 opensuse() {
