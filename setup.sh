@@ -38,6 +38,7 @@ debian() {
     echo 'eval "$(pyenv init --path)"' >>~/.profile
     echo 'eval "$(pyenv init -)"' >> ~/.bashrc
     sudo apt install liblzma-dev tk-dev libncurses5-dev libreadline-dev sqlite3 libsqlite3-dev libbz2-dev libffi-dev
+    sudo apt install fd-find ripgrep neovim
 }
 
 opensuse() {
